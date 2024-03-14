@@ -1,5 +1,5 @@
 body {
-    direction: rtl;
+    direction: ltr;
 }
 
 /*************font*************/
@@ -48,4 +48,15 @@ body {
 /*************color*************/
 .ms-50{
     margin-left: 50px;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+}
+.nav-link{
+    color: #949494 !important ;
+}
+
+.active {
+    color: #fff !important;
 }

@@ -1,12 +1,11 @@
-
-
-.ks_header a{
-    direction: ltr;
-}
-
-.ks_header_logo{
+.ks_header_logo {
     margin-left: 24px;
 }
-.active{
-    color:#A173DC !important ;
+
+
+
+.ks_header {
+    background-color: #07003E;
+    color: #fff;
+    padding: 15px 0;
 }
