@@ -1,5 +1,6 @@
 export type CourseRow =
     {
         title: string;
-        description: string;
+        image: string;
+        ethereum:string;
     }

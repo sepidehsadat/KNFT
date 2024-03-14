@@ -1,6 +1,7 @@
 import React from 'react'
 import Style from './KSCourseCard.module.css'
-import course1 from "../assets/images/course1.png";
+import stars from "../assets/images/stars.png";
+import ethereum from "../assets/images/ethereum.png";
 import { CourseRow } from "../rows/CourseRow";
 
 interface IProps
@@ -11,10 +12,15 @@ export default function KSCourseCard({ course }: IProps)
 {
     return (
         <div className={`${Style.ks_course_card} p-3 mb-4`}>
-            <img className="mb-3" src={course1} alt="course" width="100%" />
-            <h5 className={`${Style.title} mb-2 font-18-bold`}>{course.title}</h5>
-            <p className={`${Style.description} mb-4 font-14-normal-400`}>فرمول هک فروش در واقع یعنی میانبر زدن از شیوه‌های معمول فروش و جذب مشتری، به شیوه‌هایی سریع‌تر، کارآمدتر و کم‌هزینه‌تر است.</p>
-            <p className={`${Style.more} mb-4 font-14-normal-500 color-purple text-center`}>مشاهده دوره</p>
+            <img className="mb-3" src={course.image} alt="course" width="100%" />
+            <div className={`mb-3 d-flex justify-content-between`}>
+                <h5 className={`${Style.title} mt-2 font-18-bold`}>{course.title}</h5>
+                <div className='d-flex justify-content-center align-items-center gap-2'>
+                    <img src={ethereum} alt="course" width="auto" />
+                    {course.ethereum}
+                </div>
+            </div>
+            <img className="mb-3" src={stars} alt="stars" width="auto" />
         </div>
     )
 }
