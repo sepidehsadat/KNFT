@@ -1,5 +1,7 @@
 .ks_banner {
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 .ks_banner_title{
     position: absolute;
@@ -8,4 +10,7 @@
     margin: auto;
     height: max-content;
     width: max-content;
+}
+.parent_cotent_left{
+    color: #fff;
 }
