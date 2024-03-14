@@ -1,0 +1,11 @@
+.ks_banner {
+    position: relative;
+}
+.ks_banner_title{
+    position: absolute;
+    color: #fff;
+    inset: 0;;
+    margin: auto;
+    height: max-content;
+    width: max-content;
+}

@@ -1,0 +1,10 @@
+.ks_button{
+    width: 83px;
+    background-color: #fff;
+    color: #A173DC;
+    border-radius: 8px;
+    outline: none;
+    border: 0;
+    min-height: 31px;
+    border: 1px solid #A173DC;
+}
