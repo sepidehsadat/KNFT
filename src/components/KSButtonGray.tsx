@@ -5,6 +5,6 @@ interface IProps {
 }
 export default function KSButtonGray({ title }: IProps) {
   return (
-    <button className={`${Style.ks_button} font-10-normal-500`}>{title}</button>
+    <button className={`${Style.ks_button} font-12-normal-500`}>{title}</button>
   )
 }

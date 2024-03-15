@@ -52,7 +52,7 @@ export default function CoursePage()
             <KSHeader />
             <KSBanner />
             <div className={`${Style.ks_parent_course} container `} >
-                <div className='row my-5'>
+                <div className='row mb-5'>
                     <h5 className={`${Style.course_page_title} mb-4 `} > <span className={`${Style.course_page_title_blue}`}>Most Popular</span> NFTs </h5>
                     <div className='container'>
                         <div className='row'>
