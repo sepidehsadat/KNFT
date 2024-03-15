@@ -5,7 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../assets/images/header_logo.png";
 import KSButton from './KSButton'
-import KSButtonGray from './KSButtonGray';
 
 export default function KSHeader()
 {
@@ -27,7 +26,7 @@ export default function KSHeader()
 
                         </Nav>
                         <div className='d-flex'>
-                            <KSButton title={"Get in Touch"} onclick={() => { }} />
+                            <KSButton title={"Explore All NFTs"} onclick={() => { }} />
                         </div>
                     </Navbar.Collapse>
                 </Container>

@@ -11,6 +11,6 @@ interface IState
 export default function KSButton({ onclick, title }: IProps)
 {
   return (
-    <button onClick={onclick} className={`${Style.ks_button} font-14-normal-500`}>{title}</button>
+    <button onClick={onclick} className={`${Style.ks_button} font-16-normal-500`}>{title}</button>
   )
 }

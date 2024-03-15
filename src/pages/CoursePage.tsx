@@ -4,6 +4,7 @@ import KSFooter from '../components/KSFooter';
 import KSBanner from '../components/KSBanner';
 import KSCourseCard from '../components/KSCourseCard';
 import KSCounseling from '../components/KSCounseling';
+import KSButton from '../components/KSButton'
 import { CourseRow } from "../rows/CourseRow";
 import Style from "./CoursePage.module.css";
 import Course1 from '../assets/images/course1.png';
@@ -52,7 +53,7 @@ export default function CoursePage()
             <KSHeader />
             <KSBanner />
             <div className={`${Style.ks_parent_course} container `} >
-                <div className='row mb-5'>
+                <div className='row mb-5 justify-content-center'>
                     <h5 className={`${Style.course_page_title} mb-4 `} > <span className={`${Style.course_page_title_blue}`}>Most Popular</span> NFTs </h5>
                     <div className='container'>
                         <div className='row'>
@@ -63,6 +64,8 @@ export default function CoursePage()
                             }
                         </div>
                     </div>
+                    <KSButton title={"Explore All NFTs"} onclick={() => { }} />
+
                 </div>
             </div>
             <KSCounseling />
