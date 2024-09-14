@@ -1,71 +1,94 @@
 body {
-    direction: ltr;
-    background-color: #07003E;
+	direction: ltr;
+	background-color: #07003E;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
 }
 
 /*************font*************/
 .font-18-bold {
-    font-size: 18px;
-    font-weight: 700;
+	font-size: 18px;
+	font-weight: 700;
 }
 
 .font-14-normal-400 {
-    font-size: 14px;
-    font-weight: 400;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .font-10-normal-500 {
-    font-size: 10px;
-    font-weight: 500;
+	font-size: 10px;
+	font-weight: 500;
 }
+
 .font-14-normal-500 {
-    font-size: 14px;
-    font-weight: 500;
+	font-size: 14px;
+	font-weight: 500;
 }
+
 .font-16-normal-500 {
-    font-size: 16px;
-    font-weight: 500;
+	font-size: 16px;
+	font-weight: 500;
 }
+
 .font-24-bold {
-    font-size: 24px;
-    font-weight: 700;
+	font-size: 24px;
+	font-weight: 700;
 }
+
 .font-16-normal {
-    font-size: 16px;
-    font-weight: 400;
+	font-size: 16px;
+	font-weight: 400;
 }
+
 .font-18-bold {
-    font-size: 18px;
-    font-weight: 700;
+	font-size: 18px;
+	font-weight: 700;
 }
 
 /*************font*************/
 /*************color*************/
 .color-purple {
-    color: #A173DC;
-}
-.color-gray-dark {
-    color: #00000005;
-}
-.color-gray {
-    color: #292D32;
-}
-/*************color*************/
-.ms-50{
-    margin-left: 50px;
+	color: #A173DC;
 }
 
-.navbar-nav{
-    margin: 0 auto;
+.color-gray-dark {
+	color: #00000005;
 }
-.nav-link{
-    color: #949494 !important ;
-    font-size: 18px;
+
+.color-gray {
+	color: #292D32;
+}
+
+/*************color*************/
+.ms-50 {
+	margin-left: 50px;
+}
+
+.navbar-nav {
+	margin: 0 auto;
+}
+
+.nav-link {
+	color: #949494 !important;
+	font-size: 18px;
 }
 
 .active {
-    color: #fff !important;
+	color: #fff !important;
 }
-.text_green{
-    color:#1EE0E1;
+
+.text_green {
+	color: #1EE0E1;
+}
+
+.app {
+	width: 100%;
+	min-height: 100%;
 }

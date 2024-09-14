@@ -10,7 +10,7 @@ import Login from './pages/LoginPage';
 function App()
 {
   return (
-    <div className="App">
+    <div className="app">
       <KSRouter/>
       {/* <Route path="/*" exact component={KSRouter} /> */}
     </div>

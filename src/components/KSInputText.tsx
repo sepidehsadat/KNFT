@@ -24,14 +24,12 @@ export default function KSInputText({ placeholder, type }: IProps)
         return input;
     }
     return (
-        <div className="form">
             <input
                 type={type}
                 onChange={setValue}
                 className="KS_input_text"
                 placeholder={placeholder}
             />
-        </div>
     )
 }
 
