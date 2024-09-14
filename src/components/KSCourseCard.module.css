@@ -1,5 +1,6 @@
-.ks_course_card{
-    box-shadow: inset 1px 1px 12px 0 rgb(93 110 126 / 65%);
-    border-radius: 12px;
-    color: #fff;
+.ks_course_card {
+	box-shadow: inset 1px 1px 12px 0 rgb(93 110 126 / 65%);
+	border-radius: 12px;
+	color: #fff;
+	max-width: 370px;
 }

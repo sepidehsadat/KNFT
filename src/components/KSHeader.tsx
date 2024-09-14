@@ -20,9 +20,7 @@ export default function KSHeader()
                             <Nav.Link href="#link">All NFTS</Nav.Link>
                             <Nav.Link href="#link">Team</Nav.Link>
                             <Nav.Link href="#link">Terms & Co</Nav.Link>
-
                             <Nav.Link href="#link">Contact</Nav.Link>
-
                         </Nav>
                         <div className='d-flex'>
                             <KSButton title={"Explore All NFTs"} onclick={() => { }} />

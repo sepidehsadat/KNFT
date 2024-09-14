@@ -57,10 +57,10 @@ export default function CoursePage()
 					<div className='row mb-5 justify-content-center'>
 						<h5 className={`${Style.course_page_title} mb-4 `} > <span className={`${Style.course_page_title_blue}`}>Most Popular</span> NFTs </h5>
 						<div className='container'>
-							<div className='row'>
+							<div className='row d-flex justify-content-between gap-2'>
 								{
 									courses?.map((course, index) => (
-										<div key={index} className='col-12 col-md-6 col-lg-4'><KSCourseCard course={course} /></div>
+										<KSCourseCard course={course} />
 									))
 								}
 							</div>
