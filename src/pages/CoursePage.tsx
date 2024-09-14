@@ -12,6 +12,7 @@ import Course2 from '../assets/images/course2.png';
 import Course3 from '../assets/images/course3.png';
 import Course4 from '../assets/images/course4.png';
 import Course5 from '../assets/images/course5.png';
+import KSLayout from '../layouts/KSLayout';
 
 let courses: CourseRow[] = [
 	{
@@ -50,26 +51,26 @@ export default function CoursePage()
 {
 	return (
 		<>
-			<KSHeader />
-			<KSBanner />
-			<div className={`${Style.ks_parent_course} container `} >
-				<div className='row mb-5 justify-content-center'>
-					<h5 className={`${Style.course_page_title} mb-4 `} > <span className={`${Style.course_page_title_blue}`}>Most Popular</span> NFTs </h5>
-					<div className='container'>
-						<div className='row'>
-							{
-								courses?.map((course, index) => (
-									<div key={index} className='col-12 col-md-6 col-lg-4'><KSCourseCard course={course} /></div>
-								))
-							}
+			<KSLayout>
+				<KSBanner />
+				<div className={`${Style.ks_parent_course} container `} >
+					<div className='row mb-5 justify-content-center'>
+						<h5 className={`${Style.course_page_title} mb-4 `} > <span className={`${Style.course_page_title_blue}`}>Most Popular</span> NFTs </h5>
+						<div className='container'>
+							<div className='row'>
+								{
+									courses?.map((course, index) => (
+										<div key={index} className='col-12 col-md-6 col-lg-4'><KSCourseCard course={course} /></div>
+									))
+								}
+							</div>
 						</div>
-					</div>
-					<KSButton title={"Explore All NFTs"} onclick={() => { }} />
+						<KSButton title={"Explore All NFTs"} onclick={() => { }} />
 
+					</div>
 				</div>
-			</div>
-			<KSCounseling />
-			<KSFooter />
+				<KSCounseling />
+			</KSLayout>
 		</>
 	)
 }
