@@ -3,7 +3,6 @@ import KSHeader from '../components/KSHeader';
 import KSFooter from '../components/KSFooter';
 import KSBanner from '../components/KSBanner';
 import KSCourseCard from '../components/KSCourseCard';
-import KSCounseling from '../components/KSCounseling';
 import KSButton from '../components/KSButton'
 import { CourseRow } from "../rows/CourseRow";
 import Style from "./CoursePage.module.css";
@@ -69,7 +68,6 @@ export default function CoursePage()
 
 					</div>
 				</div>
-				<KSCounseling />
 			</KSLayout>
 		</>
 	)
