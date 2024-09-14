@@ -12,10 +12,12 @@ export default function LoginPage()
 	}
 	return (
 		<KSSection>
-			<h5 >WellCome back !👋</h5>
-			<h3 className='mb-2'>Login to your account</h3>
-			<KSInputText placeholder={"UserName"} type={"text"} />
-			<KSInputText placeholder={"Password"} type={"text"} />
+			<figure className='text-center'>
+				<h5 className='mb-2'>WellCome back !👋</h5>
+				<h3 >Login to your account</h3>
+			</figure>
+			<KSInputText placeholder={"UserName"} type={"text"} label='User Name' />
+			<KSInputText placeholder={"Password"} type={"text"} label='Password' />
 			<KSButton title={"Login"} onclick={handleSubmit} />
 		</KSSection>
 	)
