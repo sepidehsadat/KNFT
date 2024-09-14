@@ -12,7 +12,6 @@ export default function KSHeader()
         <>
             <Navbar expand="lg" className={`${Style.ks_header} bg-body-tertiary `}>
                 <Container>
-
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Brand href="#home"> <img className={Style.ks_header_logo} src={logo} alt="logo" /></Navbar.Brand>
                     <Navbar.Collapse id="basic-navbar-nav">
