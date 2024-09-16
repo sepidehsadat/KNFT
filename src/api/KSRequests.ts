@@ -5,6 +5,6 @@ export class KSRequests
 {
 	static login(data: LoginDataRow)
 	{
-		return post<LoginResponceRow, LoginDataRow>("/login", data);
+		return post<LoginResponceRow, LoginDataRow>("api/login", data);
 	}
 }

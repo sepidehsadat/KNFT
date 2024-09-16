@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from "axios";
 
-const base_url = "";
+const base_url = "https://reqres.in/";
 
 export const get = async<T>(url: string, params?: Record<string, any>): Promise<T> =>
 {

@@ -1,14 +1,21 @@
-import React from 'react'
-import KSInputText from '../components/KSInputText'
-import KSButton from '../components/KSButton'
-import { Routes } from '../KSRoutes'
-import KSSection from '../components/KSSection'
+import KSInputText from '../components/KSInputText';
+import KSButton from '../components/KSButton';
+import KSSection from '../components/KSSection';
+import { KSRequests } from '../api/KSRequests'
 
 export default function LoginPage()
 {
-	const handleSubmit = (): void =>
+	const handleSubmit = async (): Promise<void> =>
 	{
-		window.location.pathname = Routes.Dashboard;
+		debugger
+		try
+		{
+			const usersData = await KSRequests.login({ email: "eve.holt@reqres.in", password: "cityslicka" });
+			localStorage.setItem('ks_user_token', usersData.token);
+		} catch (error)
+		{
+			console.error("Error during login:", error);
+		}
 	}
 	return (
 		<KSSection>

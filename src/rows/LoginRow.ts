@@ -1,6 +1,6 @@
 export type LoginDataRow = {
-	user: string;
-	pass: string;
+	email: string;
+	password: string;
 }
 
 export type LoginResponceRow = {
