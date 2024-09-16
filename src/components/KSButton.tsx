@@ -6,8 +6,8 @@ interface IProps
   onclick: React.MouseEventHandler<HTMLButtonElement>;
 }
 
-interface IState
-{ }
+// interface IState
+// { }
 export default function KSButton({ onclick, title }: IProps)
 {
   return (

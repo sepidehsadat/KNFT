@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react'
+import React from 'react'
 import Style from './KSInputText.module.css'
 
 interface IKSInputTextProps
@@ -8,13 +8,13 @@ interface IKSInputTextProps
 	label: string;
 }
 
-interface IState
-{
-	value: string;
-}
+// interface IState
+// {
+// 	value: string;
+// }
 export default function KSInputText(props: IKSInputTextProps)
 {
-	const [input, setInput] = useState("");
+	// const [input, setInput] = useState("");
 
 	// const setValue = (e: React.ChangeEvent<HTMLInputElement>): void =>
 	// {

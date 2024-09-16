@@ -1,6 +1,4 @@
 import React from 'react'
-import KSHeader from '../components/KSHeader';
-import KSFooter from '../components/KSFooter';
 import KSBanner from '../components/KSBanner';
 import KSCourseCard from '../components/KSCourseCard';
 import KSButton from '../components/KSButton'

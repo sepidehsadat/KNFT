@@ -45,10 +45,10 @@ export default function KSFooter()
 					</div>
 					<div className={`${Style.ks_border_sm_bottom} d-flex align-items-center order-md-1 order-0 pb-4 pb-md-0`} >
 						<div className={`gap-2 gap-md-4 d-flex`}>
-							<a href="#"><img src={youtube} alt="youtube" width="48" /></a>
-							<a href="#"><img src={linkedin} alt="linkedin" width="48" /></a>
-							<a href="#"><img src={twitter} alt="twitter" width="48" /></a>
-							<a href="#"><img src={instagram} alt="instagram" width="48" /></a>
+							<a href="www.google.com"><img src={youtube} alt="youtube" width="48" /></a>
+							<a href="www.google.com"><img src={linkedin} alt="linkedin" width="48" /></a>
+							<a href="www.google.com"><img src={twitter} alt="twitter" width="48" /></a>
+							<a href="www.google.com"><img src={instagram} alt="instagram" width="48" /></a>
 						</div>
 					</div>
 				</div>
