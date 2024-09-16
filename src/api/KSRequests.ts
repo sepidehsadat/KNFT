@@ -1,10 +1,10 @@
-import { post } from './KSRequest'
+import { post } from './KSRequest';
+import { LoginDataRow, LoginResponceRow } from '../rows/LoginRow';
 
 export class KSRequests
 {
-	static login()
+	static login(data: LoginDataRow)
 	{
-		//Todo
-		return post<"", {}>("", {});
+		return post<LoginResponceRow, LoginDataRow>("/login", data);
 	}
 }
