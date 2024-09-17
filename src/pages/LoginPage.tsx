@@ -5,11 +5,12 @@ import { KSRequests } from '../api/KSRequests'
 
 export default function LoginPage()
 {
-	const handleSubmit = async (): Promise<void> =>
+	const handleLogin = async (): Promise<void> =>
 	{
 		debugger
 		try
 		{
+			//Todo
 			const usersData = await KSRequests.login({ email: "eve.holt@reqres.in", password: "cityslicka" });
 			localStorage.setItem('ks_user_token', usersData.token);
 		} catch (error)
@@ -25,7 +26,12 @@ export default function LoginPage()
 			</figure>
 			<KSInputText placeholder={"UserName"} type={"text"} label='User Name' />
 			<KSInputText placeholder={"Password"} type={"text"} label='Password' />
-			<KSButton title={"Login"} onclick={handleSubmit} />
+			<figure className='d-flex flex-column gap-1'>
+				<b>User Sample</b>
+				<span><b>Email:</b>eve.holt@reqres.in</span>
+				<span><b>Password:</b>cityslicka</span>
+			</figure>
+			<KSButton title={"Login"} onclick={handleLogin} />
 		</KSSection>
 	)
 }
